@@ -4,6 +4,11 @@
       "name": "SettingPage",
       "buildFunction": "SettingBuilder",
       "pageSourceFile": "src/main/ets/view/Setting.ets"
+    },
+    {
+      "name": "AIChat",
+      "buildFunction": "AIChatBuilder",
+      "pageSourceFile": "src/main/ets/view/AIChat.ets"
     }
   ]
 }

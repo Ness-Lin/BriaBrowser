@@ -77,7 +77,9 @@ struct Index {
   RegisterEmit(){
     emitter.on("Back",()=>{})
     emitter.on("History",()=>{})
-    emitter.on("AIChat",()=>{})
+    emitter.on("AIChat",()=>{
+      this.PageStack.pushPathByName("AIChat",null)
+    })
     emitter.on("WebViewManagement",()=>{})
     emitter.on("Settings",()=>{
       this.PageStack.pushPathByName("SettingPage",null)
