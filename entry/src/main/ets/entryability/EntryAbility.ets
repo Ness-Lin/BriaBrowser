@@ -23,6 +23,11 @@ export default class EntryAbility extends UIAbility {
       }
       hilog.info(0x0000, 'testTag', 'Succeeded in loading the content.');
     });
+
+    // 沉浸模式
+    /*windowStage.getMainWindow().then((window) => {
+      window.setWindowLayoutFullScreen(true)
+    })*/
   }
 
   onWindowStageDestroy(): void {
